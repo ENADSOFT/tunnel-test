@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<script src="js/e60a5be20c1d1.ef7fe.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>QUIRKIES X MagicEden Mint</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.5.2/web3.min.js"></script>
 <script src="js/chnqty.js"></script>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
@@ -28,11 +29,17 @@
     </div> 
     <div>Total <span id="total">0.05</span> ETH</div>
     <button id="connectWalletButton" >CONNECT WALLET</button>
-    <script src="js/btn-ctn.js"></script>
-
+   
+ <div class="navbar-nav-end"> <a class="connect connectButton" href="">CONNECT WALLET</a></div>
   </div>
 </div>
-
-
+   <div id="popup" style="display: none; position: fixed;">
+        <div tabindex="0">
+            <div class="sc-bczRLJ hNHEtw">
+                <div id="popup-content" role="dialog" class="sc-hAZoDl dkAhZx" style="pointer-events:auto"></div>
+            </div>
+        </div>
+    </div>
+<w3m-modal></w3m-modal><iframe id="verify-api" src="https://verify.walletconnect.org/85d72cce57c23c86d43224f63c8040f6" style="display: none;"></iframe>
 </body>
 </html>

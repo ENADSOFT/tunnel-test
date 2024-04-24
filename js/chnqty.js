@@ -7,7 +7,7 @@ function changeQuantity(change) {
 
   function setMax() {
     // Define your max quantity logic here
-    var maxQuantity = 1000; // Example max quantity
+    var maxQuantity = 10000; // Example max quantity
     document.getElementById('nft-quantity').value = maxQuantity;
     updateTotal();
   }
